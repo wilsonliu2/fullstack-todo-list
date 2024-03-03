@@ -24,16 +24,12 @@ This project is a simple todo list application built using React for the fronten
   - React
   - JavaScript
   - Tailwind CSS
-  - Axios
-  - Vite
 
 - Backend:
 
   - Spring Boot
   - Java
-  - Restful API
-  - Maven
-
+    
 - Database:
   - MySQL
 
