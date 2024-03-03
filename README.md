@@ -24,6 +24,7 @@ This project is a simple todo list application built using React for the fronten
   - React
   - JavaScript
   - Tailwind CSS
+  - Vite
 
 - Backend:
 
