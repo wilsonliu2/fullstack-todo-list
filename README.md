@@ -54,7 +54,7 @@ To get the todo list project running locally:
 
    - Navigate to the `frontend` directory.
    - Install necessary dependencies by running `npm install`.
-   - Start the development server with Vite using `npm run dev`.
+   - Start the development server using `npm run dev`.
 
 3. **Backend Setup**:
 
