@@ -4,16 +4,16 @@
 
 This project is a simple todo list application built using React for the frontend and Spring Boot for the backend.
 
-- **Frontend**: The frontend dynamically displays tasks, allowing users to interact with the application by creating, editing, and marking tasks as completed. Tailwind CSS ensures the UI is responsive across devices.
+- **Frontend**: The frontend is developed using React with Vite, JavasScript as the programming language, Tailwind CSS for styling and Axios is used for sending HTTP requests to the backend.
 
-- **Backend**: The Spring Boot backend exposes a RESTful API, handling requests from the frontend. This API facilitates operations such as retrieving, adding, updating, and deleting tasks.
+- **Backend**: Spring Boot (Java) is used to create the backend, it provides a RESTful API that handles requests for task operations like getting, adding, updating and deleting tasks. Maven is used for project management and build processes.
 
-- **Database**: MySQL is used for data storage, with the backend performing database operations to persist task information.
+- **Database**: MySQL is used as the database for this project, with the backend communicating to MySQL to perform database operations.
 
 ## Features
 
 - Users can create, edit, and delete tasks.
-- Tasks are organized by categories.
+- Tasks are organized in categories.
 - Users can mark tasks as completed.
 - Responsive design for mobile and desktop.
 
@@ -22,50 +22,49 @@ This project is a simple todo list application built using React for the fronten
 - Frontend:
 
   - React
-  - JavaScript
   - Tailwind CSS
+  - Axios
   - Vite
 
 - Backend:
 
   - Spring Boot
-  - Java
-    
+  - Maven
+
 - Database:
   - MySQL
 
 ## Screenshots
 
-<img src="./screenshots/ss1.png" alt="Screenshot of Todo List" />
-<img src="./screenshots/ss5.png" alt="Screenshot of Todo List" />
-<img src="./screenshots/ss3.png" width="300" alt="Screenshot of Todo List" />
-<img src="./screenshots/ss4.png" width="300" alt="Screenshot of Todo List" />
-<img src="./screenshots/ss7.png" width="300" alt="Screenshot of Todo List" />
+Below are screenshots of the Todo List project, there are more screenshots in the `screenshots` folder.
 
-More screenshots in the screenshots folder
+<img src="./screenshots/ss1.png" alt="Screenshot of Todo List" />
+<img src="./screenshots/ss5.png" alt="Screenshot of the update form" />
+<img src="./screenshots/ss3.png" width="300" alt="Screenshot of Todo List on mobile" />
+<img src="./screenshots/ss4.png" width="300" alt="Screenshot of the expandable sidebar on mobile" />
+<img src="./screenshots/ss7.png" width="300" alt="Screenshot of the update form on mobile" />
 
 ## Setup
 
-To get the todo list application running locally:
+To get the todo list project running locally:
 
-1. **Clone the repository**
+1. **Clone the Repository**
 
 2. **Frontend Setup**:
 
-   - Navigate to the frontend directory.
-   - Install dependencies: `npm install`
-   - Start the development server: `npm run dev`
+   - Navigate to the `frontend` directory.
+   - Install necessary dependencies by running `npm install`.
+   - Start the development server with Vite using `npm run dev`.
 
 3. **Backend Setup**:
 
-   - Navigate to the backend directory.
-   - Build the project with Maven: `mvn clean install`
+   - Navigate to the `backend` directory.
+   - Build the project with Maven by running `mvn clean install`.
    - Start the backend server.
 
 4. **Database Configuration**:
 
-   - Ensure MySQL is running on your machine.
-   - Update the `application.properties` file with your database credentials.
+   - Update the `application.properties` file in the backend project with your database credentials.
 
 5. **Access the Application**:
-   - Open your web browser and go to `http://localhost:5173`.
+   - Open your web browser and navigate to `http://localhost:5173` (or the port you have configured) to interact with the project.
